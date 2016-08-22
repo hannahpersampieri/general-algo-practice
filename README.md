@@ -13,3 +13,8 @@ Various sorting algorithims, implemented and compared to one another in terms of
 ###Infix to postfix:
 Implements a stack and various operations to convert an infix operation to a postfix notation, and then perform said operations.
 
+###Lab 7
+An implementation of mergesort on a linked list. 
+
+###lab 8
+An implementation of Dijkstra's algorithim.
