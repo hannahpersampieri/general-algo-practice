@@ -1,5 +1,5 @@
-# comp15-stuff
-A master repo of all of the projects I enjoyed from my data structures class/Want to use as reference for future classes or interviews.
+# General algorithim practice
+Data structures/algorithim practice
 
 ###Playlist manager:
 A splay tree that acts as an "iTunes" account manager. Has capabilities to insert, delete, lookup, find approximate matches. Outputs trees in DOTTY format to check if splaying correctly.
