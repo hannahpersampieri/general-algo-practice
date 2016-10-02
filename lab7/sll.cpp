@@ -18,11 +18,10 @@ SLinkedList::SLLNode* SLinkedList::mergesort(SLinkedList::SLLNode* aHead)
 SLinkedList::SLLNode* SLinkedList::goToMid(SLinkedList::SLLNode* aHead){
 	SLinkedList::SLLNode* p1 = aHead;
 	SLinkedList::SLLNode* p2 = aHead;
-	while(p2->next() != NULL &&  p2 -> next()->next() != NULL){
-		p2 = p2 ->next()->next();
+	while(p2->next() != NULL &&  p2 ->next()->next() != NULL && p1->next() != NULL){
+		p2 = p2->next()->next();
 		p1 = p1->next();
 	}
-	//cout << "the middle element is: " << p1->value() << endl;
 	return p1;
 }
 SLinkedList::SLLNode* SLinkedList::merge(SLinkedList::SLLNode* h1, SLinkedList::SLLNode* h2){
