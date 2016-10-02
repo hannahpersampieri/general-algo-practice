@@ -61,6 +61,7 @@ void Graph::initializeShortestPath(int aStartNodeId)
   startNode->setShortestDistance(0);
 }
 
+// Dijkstra's algorithim for computing shortest path
 void Graph::computeShortestPaths(int aNodeId)
 {
   initializeShortestPath(aNodeId);
@@ -77,7 +78,6 @@ void Graph::computeShortestPaths(int aNodeId)
   // Heapify into a min heap
   heap.bottomUpMinHeap();
 
-  // Your code goes here
   // You can call heap.removeMin() to extract the min
   while(!heap.isEmpty()){
     Node* u = heap.removeMin();
