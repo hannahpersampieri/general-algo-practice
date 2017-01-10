@@ -1,4 +1,4 @@
-# General algorithim practice
+# General algorithm practice
 Data structures/algorithim practice
 
 ###Playlist manager:
@@ -7,7 +7,7 @@ A splay tree that acts as an "iTunes" account manager. Has capabilities to inser
 ###Dictionary Hashtable:
 Pretty straightforward-- implements a Hashtable to look up words in a large dictionary. Gotta love those prime numbers and O(1). I was amazed at how fast it ran.
 
-###Sorting Algorithims
+###Sorting Algorithms
 Various sorting algorithims, implemented and compared to one another in terms of time to sort an array of 1000 items.
 
 ###Infix to postfix:
